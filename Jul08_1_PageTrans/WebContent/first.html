@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<script type="text/javascript">
+function go(){
+	location.href="second.jsp?a=300&b=400";
+}
+
+</script>
+</head>
+<body>
+<!-- 
+request (수동 이동)
+	1. <a>클릭 - GET방식 요청
+	
+	2. <form>속의 <button>클릭 - GET, POST
+		사용자 입력 편하게 받을 수 있음
+	3. JavaScript - GET방식
+			이벤트 마음대로
+ -->
+	<a href="second.jsp?a=100&b=200">100+200계산하기</a>
+	<form action="second.jsp">
+		a <input name="a"><br>
+		b <input name="b"><br>
+		<button>계산</button>
+	</form>
+	<hr>
+	<h2 ondblclick="go();">300 +400계산하기</h2>
+	
+</body>
+</html>

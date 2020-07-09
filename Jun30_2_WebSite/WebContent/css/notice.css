@@ -1,0 +1,21 @@
+@charset "EUC-KR";
+#noticeTable{
+	width: 1000px;
+	background-color: black;
+	color:orange; /* Á¦¸ñÂÊ*/
+	font-size: 13pt;
+	
+}
+
+#noticeTable .dataTr{
+	background-color: white;
+	color:black;
+}
+
+#noticeTable .dataTr:hover{
+	background-color: gray;
+}
+
+#noticeTable td{
+	border-bottom: pink solid 3px;
+}

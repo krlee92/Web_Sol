@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<script type="text/javascript" src="js2.js"></script>
+<title>Insert title here</title>
+<script type="text/javascript">
+
+// 1. 함수 작성
+/* function 함수명(파라메터){
+	
+} */
+
+function gogogo(){
+	alert("ㅋ");
+}
+
+function test(){
+	// GET방식 요청
+	// location.href = "https://www.naver.com";
+}
+
+function test2(){
+	location.href = "https://www.google.com";
+}
+
+function test3(){
+	// 작업딜레이
+	// setTimeout(함수, 시간(ms 1/1000초));
+	setTimeout(function(){
+		alert("ㅋ")
+	}, 1000)
+}
+
+function test4(){
+	setInterval(function(){
+		alert("e")
+	}, 500)
+}
+</script>
+</head>
+<body>
+	<h1 ondblclick="test4();">어디가</h1>
+	<h1 onclick="test3();">잠 깨고 오타 보세요</h1>
+	<h1 onmouseenter="test();">ㅋㅋㅋ</h1>
+	<h1 onclick="test2();">ㅎㅎㅎㅎ</h1>
+	<!-- 2. 1.의 함수를 HTML의 onXXX에 연결 -->
+	<img onclick="gogogo();" src="F-22A.jpg">
+	
+</body>
+</html>

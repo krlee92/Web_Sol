@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<!--
+CSS(Cascading Style Sheet)
+HTML DOM객체에 디자인을 부여하는 디자인 언어
+선택자{
+	속성명 : 값;
+	속성명 : 값;
+	...
+}
+
+선택자
+	-기본형
+		태그명 : 그것들 다
+		#id : id가 그거인 객체 : id속성은 중복x
+		.class : class가 그거인 객체들 중복 o
+		<div> 아무효과없는 객체처리, 줄바꿈
+		<span> 객체처리, 줄바꿈도없음
+	-조합형
+		태그명.class
+		기본형,기본형,기본형,...
+		기본형 기본형 기본형 ...
+	-상태형
+		기본형:상태일때
+		
+	
+-->
+<link rel="stylesheet" href="css.css">
+<style type="text/css">
+p{
+	/* 속성명 시간 속도조절*/
+					/*ease-in ease-out*/
+	transition:all 0.5s ease-in;
+}
+
+p:active{ /* 마우스로 누르는동안일때*/
+	font-size: 20pt;
+}
+p:hover{
+	color:red;
+}
+
+
+
+/* div 영역 속에 있는 span 선택*/
+div span {
+			/* 컬러		선 두께		선 종류	*/
+			/* 선종류 solid dotted dashed double ridge groove iset outset */
+			/* color	w	type	*/
+	border: #66FFB2 3px outset;
+	background-color: green;
+	color: white;
+	cursor: help;
+}
+
+div,span{
+	
+	/* x y(얼마나 삐져나가게)  얼마나번져나가게, 컬러 */
+	/* x y 						blur 			color */
+	text-shadow: 5px 3px 10px #66FFB2;
+}
+
+h3.keke{
+	font-size: 20pt;
+}
+
+h2{
+	color: #66FFB2; /* 글자색 */
+	
+}
+#haha{
+	background-color: #3399FF;
+}
+
+.keke{
+	font-family: "궁서";
+}
+
+</style>
+</head>
+<body>
+	<h2 class="keke">HTML : 뼈대</h2>
+	<h2 id="haha">CSS : 디자인</h2>
+	<h3 class="keke">JavaScript : 이벤트처리(jQuery로 대체)</h3>
+	<div>회식을 학원에서 20만원 지원해주고</div>
+	<div>여러분이 회비 만원씩 내면 <span>40만원</span>인데</div>
+	<span>왜 50만원이 됐을까요</span>
+	<span>모른척 하고 있다가 회식날 대리님한테 </span>
+	<p>잘먹었다고 해요</p>
+</body>
+</html>

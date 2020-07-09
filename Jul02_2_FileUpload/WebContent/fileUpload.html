@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<link rel="stylesheet">
+</head>
+<body>
+	<!-- 
+	form에 입력한 데이터를 랜선에 실어서 보낼 수 있게
+	톰캣이 알아서 인코딩(글자만)
+	톰캣이 알아서 디코딩(글자만) 해줌
+	
+	기존의 톰캣 방식 인코딩(비닐 포장)으로는 파일(뾰족해) 처리가 안됨
+	다른 방식 인코딩(박스 포장)으로
+	
+	1. 파일을 주소에 실어보낼 순 없으니 POST방식으로
+	2. enctype(포장방식)을 multipart/form-data(박스포장)로
+ 	-->
+	<form action="fileUpload" method="post" enctype="multipart/form-data">
+		이름<input name="name"><p>
+		사진<input name="p" type="file"><p>
+		기타<input name="e" type="file"><p>
+		
+		<input type="submit">
+	</form>
+	</body>
+</html>

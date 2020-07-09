@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<script type="text/javascript" src="validCheck.js"></script>
+<script type="text/javascript" src="bmiCheck.js"></script>
+<link rel="stylesheet" href="NewFile.css">
+</head>
+<body>
+	<form name="bmiForm" onsubmit="return check();" action="HomeController" method="post" enctype="multipart/form-data">
+		<table>
+			<tr>
+				<th>비만도 검사</th>
+			</tr>
+			<tr>
+				<td align="center">
+					<input name="n" placeholder="이름" autocomplete="off">
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					<input name="h" placeholder="키" autocomplete="off">
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					<input name="w" placeholder="몸무게" autocomplete="off">
+				</td>
+			</tr>
+			<tr>
+				<td align="center"><input name="p" type="file"></td>
+			</tr>
+			<tr>
+				<td align="center">
+					<button>확인</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
+
+
+
+

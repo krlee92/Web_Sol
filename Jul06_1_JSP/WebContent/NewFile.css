@@ -1,0 +1,57 @@
+@charset "EUC-KR";
+@font-face{
+	font-family: "sam";
+	src: url("Sam3KRFont.ttf");
+}
+table {
+	font-family:"sam";
+	margin-left: auto;
+	margin-right: auto;
+	width: 350px;
+	background-color: #b3d2f7;
+	color:white;
+	font-size: 13pt;
+	box-shadow: 0px 0px 10px black;
+}
+
+th {
+	background-color: white;
+	color: #004080;
+	font-size: 17pt;
+	font-weight: 100;
+	height: 70px;
+}
+input, select{
+	width: 85%;
+	height: 40px;
+	outline:none;
+	text-align: center;
+	font-size: 13pt;
+	margin-bottom: 10px;
+	font-family:"sam";
+}
+input::placeholder{
+	color:#400080;
+}
+button{
+	font-family:"sam";
+	background-color: transparent;
+	color:white;
+	font-size: 15pt;
+	font-weight: 900;
+	border:none;
+	height: 50px;
+}
+
+.testa{
+	background-color: red;
+}
+.testb{
+	background-color: gray;
+}
+.testc{
+	background-color: melon;
+}
+.testd{
+	background-color: skyblue;
+}

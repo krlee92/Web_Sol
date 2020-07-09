@@ -1,0 +1,63 @@
+@charset "EUC-KR";
+
+
+div {
+	color: #66FFB2;
+}
+
+#jointable {
+	background-color: gray;
+	color: #FFFFFF;
+}
+
+table { /* input, 버튼쪽 디자인은 따로하는것 */
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 3px 3px 3px black;
+	width: 300px;
+	background-color: #99CCFF55;
+	border-radius: 10px;
+}
+
+.boxType {
+	border: green solid 2px;
+	padding: 7px;
+	text-align: left;
+	outline: none; /* 선택했을때 들어가는 기본 디자인 없애기 */
+	width: 200px;
+	
+}
+
+.boxType:focus{ 
+	
+	/*그 input에서 작업중일때*/
+	border: red solid 2px;
+}
+
+button {
+	width: 200px;
+	background-color: #455A64;
+	color: white;
+	border: none;
+	cursor: pointer;
+	height: 30px;
+	font-weight: 900;
+}
+
+.boxType::placeholder{
+	color:red;
+	font: sans-serif;
+}
+
+select {
+	width: 200px;
+	border: none;
+	border-bottom: #455A64 solid 2px;
+	height: 40px;
+	outline: none;
+}
+
+textarea {
+	resize: none; /* 사용자가 사이즈 못 바꾸게*/
+	width: 200px;
+}

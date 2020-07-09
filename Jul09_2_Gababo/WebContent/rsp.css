@@ -1,0 +1,52 @@
+@charset "EUC-KR";
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #3949AB;
+	width: 500px;
+	color: white;
+	border-spacing: 0px;
+	box-shadow: 3px 3px 3px black;
+}
+
+img {
+	width: 150px;
+	height: 150px;
+	border-radius:10px;
+}
+
+th {
+	font-size: 20pt;
+	height: 50px;
+}
+
+#whatTitle {
+	background-color: #5C6BC0;
+	font-size: 18pt;
+	font-weight: 800;
+}
+
+.what {
+	background-color: #7986CB;
+	height: 162px;
+}
+.what:hover{
+	background-color: red;
+}
+#resultTitle {
+	background-color: #5C6BC0;
+	font-size: 18pt;
+	font-weight: 800;
+}
+.resultTd1{
+	background-color: #7986CB;
+	height: 30px;
+	font-weight: 800;
+}
+.resultTd2{
+	background-color:#9FA8DA;
+	font-weight: 800;
+	height:40px;
+	font-size: 17pt;
+}

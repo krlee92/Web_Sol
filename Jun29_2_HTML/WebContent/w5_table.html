@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<table border="1" width="300" height="300">
+		<!-- <tr>한세트마다 한행 -->
+		<tr>
+			<td align="left" valign="top">1</td> <!-- td 하나마다 한열 -->
+			<td>2</td>
+		</tr>
+		<tr>
+			<td align="center" valign="bottom">3</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>6</td>
+		</tr>
+	</table>
+	<hr>
+	<table border="1" width="300" height="300">
+		<tr>
+			<th rowspan="2">ㄱ</th> 
+			<!-- th는 제목용 헤더, 굵은글자 -->
+			<!-- rowspan 행방향 늘리기 -->
+			
+			<td colspan="2">ㄷ</td>
+			<!-- colspan 열방향 늘리기 ->ㄷ칸이 2칸차지하게 -->
+			<!-- colspan, rowspan 무적권 오른쪽, 아래방향 전진 -->
+		</tr>
+		<tr>
+			<td>ㅂ</td>
+			<td>ㅅ</td>
+		</tr>
+	
+	
+	</table>
+	<hr>
+	<table border="1" width="300" height="300">
+		<tr>
+			<td colspan="2">1</td>
+			<td rowspan="2">3</td>
+		</tr>
+		<tr>
+			<td rowspan="2">4</td>
+			<td>5</td>
+		</tr>
+		<tr>
+			<td colspan="2">8</td>
+		</tr>
+	
+	</table>
+	<hr>
+	<input type="color">	
+
+</body>
+</html>
+
+<!-- frame 프레임
+	640 x 480
+	800 x 600
+	1024 x 768
+	------------- 4 : 3 => 화면을 꽉 챋우는 디자인
+	
+	1280 x 1024
+	1900 x 800
+	.....
+	------------- 일정하지 않음
+	frame : 화면 꽉 채우기는 편한데... 요즘은 꽉채우는거 잘안함...
+	너무 복잡함
+	JSP/Spring으로 구현해도 됨
+	...안쓰는거
+
+ -->

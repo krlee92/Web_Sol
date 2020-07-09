@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<script type="text/javascript" src="validCheck.js"></script>
+<script type="text/javascript" src="jul06_3_Check.js"></script>
+</head>
+<body>
+	<form action="ASD" name="jul06Form" onsubmit="return check();">
+		ID <input name="id"
+			autocomplete="off"
+			autofocus="autofocus"
+			maxlength="10"
+			placeholder="필수, 4~10자, 한글/특수문자 제외">
+		<hr>
+		PW <input name="pw"
+			type="password"
+			maxlength="12"
+			placeholder="필수, 3~12자, 대문자/숫자 반드시"><p>
+		PW확인 <input name="pwCheck"
+			type="password"
+			maxlength="12">
+		<hr>
+		나이 <input name="age"
+			  placeholder="필수">
+		<hr>
+		사진<input name="photo"
+			type="file"
+			placeholder="필수">
+		<hr>
+		<button>가입</button>
+	</form>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css.css">
+</head>
+<body>
+	<!-- d?name=%2a%3d -->
+	<form action="d" method="post">
+		<table border="1">
+			<tr id="jointable">
+				<th colspan="2"><div>회원가입</div></th>
+			</tr>
+			<tr>
+				<td align="center">이름</td>
+				<td align="center"><input name="name" class="boxType" placeholder="이름은 한국어로 쓰세요"></td>
+			</tr>
+			<tr>
+				<td align="center">비번</td>
+				<!-- type="password"타입은 가릴것에 -->
+				<td align="center"><input 
+										type="password"
+										name="pw"
+										class="boxType"
+										placeholder="비번은 쉽게 쓰세요"></td>
+			</tr>
+			<tr>
+				<td align="center">성별</td>
+				<td>
+					<!-- 목록중에 하나만 고르게 하기, 기본값:checked-->
+					<!-- radio 기본값은 on/off, value로 전송값 설정-->
+					<!-- radio는 자리를 너무 많이 차지함-->
+					<input type='radio' name="gender" value="남" checked="checked">남자<br>
+					<input type='radio' name="gender" value="여">여자<br>
+					<input type='radio' name="gender" value="기타">기타<br>
+				</td>
+			</tr>
+			<tr>
+				<td align="center">주소</td>
+				<td>
+					<select name="addr">
+						<option>서울</option>
+						<option>경기북부</option>
+						<option>경기남부</option>
+						<option>충청</option>
+						<option value="ㅋㅋㅋ">기타</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td align="center">음식</td>
+				<td>
+					<!-- checkbox : 목록중에 여러개 선택가능 :POST방식 써야-->
+					<!-- 데이터를 주소에 저장해서 보내는 GET방식으로는 표현이 불가능 -->
+					<!-- 데이터가 그냥 내부적으로 넘어가는 POST방식 써야 -->
+					<input type="checkbox" name="food" value="닭갈비">닭갈비<br>
+					<input type="checkbox" name="food" value="간짜장">간짜장<br>
+					<input type="checkbox" name="food" value="싸이버거">싸이버거<br>
+					<input type="checkbox" name="food" value="피자">피자<br>
+				</td>
+			</tr>
+			<tr>
+				<td align="center">자기소개</td>
+				<td>
+				<!-- 여러줄 입력하기 -->
+				<textarea name="introduce"></textarea>				
+				</td>
+			</tr>
+			<tr>
+				<!-- 정석은 input type="submit"인데 
+					그냥 버튼 써도 무관
+				-->
+				<th colspan="2">
+				<input type="submit" value="가입"><br>
+				<button>가입</button><br>
+				<!-- 그림 버튼 -->
+				<!-- 톰캣이 한글파일명 인식-x -->
+				<input type="image" src="Apple64.png"><br>
+				
+				<!-- form을 최초의 상태로 -->
+				<input type="reset" value="ㅎㅎ">
+				</th>
+			</tr>
+		</table>
+	
+	</form>
+	<!--  파일에 업로드하기, 따로정리 -->
+	<input type="file">
+	
+	<!-- 
+		명절 삼촌 컴 -> XP -> Internet-Explorer 6
+		
+		신기술
+		HTML40.01 	-> 	HTML5(미완성)
+		Css2 		->	CSS3(미완성)
+		
+	 -->
+	<input type="datetime-local">
+	<input type="range">
+	</body>
+</html>

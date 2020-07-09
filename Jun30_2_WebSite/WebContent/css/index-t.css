@@ -1,0 +1,35 @@
+@charset "EUC-KR";
+body {
+	/* HTML 기본 여백 없애기 */
+	margin: 0px; /* 외부 여백 */
+	padding: 0px; /* 내부 여백 */
+}
+#siteTitleArea {
+	width: 100%;
+	/* 좌표 조절 */
+	position: fixed; /* absolute(html기준) or fixed(브라우저) */
+	top: 0px;
+	border-spacing: 0px; /* td간의 간격 */
+}
+#siteTitleArea2 {
+	height: 90px;
+	background-color: #FFFFFF55;
+}
+#siteTitleArea2 table{
+	width: 1000px; 		/* 1024 x 768모니터를 위해서 */
+	font-size: 30pt;
+	font-family: "궁서";
+	text-shadow: 3px 3px 5px orange;
+	font-weight: 900; 	/* 글자 굵기 */
+}
+#siteMenuArea {
+	height: 50px;
+	background-color: #000000AA;
+}
+#siteMenuArea table{
+	width: 1000px; 
+}
+
+
+
+

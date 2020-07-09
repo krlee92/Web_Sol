@@ -1,0 +1,84 @@
+@charset "EUC-KR";
+
+@font-face{
+	font-family: "a";
+	src: url("a.TTF");
+	
+}
+body {
+	/* HTML 기본 여백 없애기 */
+	margin: 0px; /* 외부 여백 */
+	padding: 0px; /* 내부 여백 */
+	
+}
+#siteTitleArea{
+	width: 100%;
+	/* 좌표 조절 */
+	position: fixed; /* ablsolute(html기준 좌표) or fixed(브라우저 기준) */
+	top: 0px;
+	border-spacing: 0px; /* td간의 간격 */
+}
+#siteTitleArea2{
+	height: 90px;
+	background-color: #FFFFFF55;
+}
+
+#siteTitleArea2 table{
+	width: 1000px; /* 1024 x768 유저를 위해*/
+	font-size: 20pt;
+	font-family: "a";
+	text-shadow: 3px 3px 5px orange;
+	font-weight: 900; /*글자 굵기*/
+	
+}
+
+#siteMenuArea{
+	height: 50px;
+	
+}
+
+#siteMenuArea table{
+	width: 1000px;
+	background-color: #000000AA;
+	
+}
+#siteMenuArea td{
+	width: 25%;
+	
+}
+#siteMenuArea a{
+	color: white;
+	font-weight: 900;
+	text-decoration: none; /* a태그는 기본적으로 언더라인이 들어가는데 그걸 없애기*/
+	font-size: 13pt;
+}
+
+#siteMenuArea a:hover{
+	
+	text-shadow: 0px 0px 5px;
+	font-size: 40pt;
+}
+
+#siteMenuArea a:active{
+	font-size: 20pt;
+	color:red;
+	font-style: inherit;
+}
+
+#siteContentArea {
+	width: 100%;
+	/* 좌표 조절 */
+	position: fixed; /* ablsolute(html기준 좌표) or fixed(브라우저 기준) */
+	top: 250px;
+	border-spacing: 0px; /* td간의 간격 */
+	
+}
+
+#homeImg {
+	/* 그림은 사이즈조절을 안하는걸로 */
+	max-width: 1000px; /* 100보다 작은거는 그대로, 100보다 큰거는 100으로 */
+	border-radius: 30px; /* 모서리 깎기 */
+	box-shadow: 2px 2px black;
+	
+	
+}

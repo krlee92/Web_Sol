@@ -1,0 +1,9 @@
+@charset "EUC-KR";
+.anImg{
+	width: 150px;
+	float: left; /* 哭率何磐 后磊府 盲快扁*/
+}
+
+.anImg img{
+	max-width: 130px;
+}
