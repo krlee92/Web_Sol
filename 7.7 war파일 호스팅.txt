@@ -1,0 +1,21 @@
+프로젝트 export - ROOT.war
+서버의 톰캣폴더
+webapps
+
+C:\Program Files\Apache Software Foundation\Tomcat 8.5\webapps
+
+
+
+ROOT폴더 삭제하고
+ROOT.war 거기다가
+
+톰캣이 war파일 자동해제
+
+IP주소:포트번호/폴더명/폴더명/...파일명
+포트번호 80이면 생략가능
+폴더명이 ROOT면 생략가능
+파일명이 index.html이면 생략가능
+
+윈도우 관리 톰캣 : 80
+이클립스 관리 톰캣 ???
+다했으면 꺼야. 둘다동시에 x

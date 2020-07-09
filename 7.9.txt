@@ -1,0 +1,31 @@
+HTML
+---------못생긴
+HTML
+CSS
+JavaScript
+-----------프로그래밍스러운 부분
+Servlet
+-----------작업이 불편
+JSP
+-----------분업?
+JSP Model 2
+----------- 아직도 V(.jsp)쪽에 Java코드가
+JSP Model 2 + EL + CustomTag
+----------------------------------- JSP 최종형태인데
+Spring - 정부에서 시켜서(전자정부 프레임워크)
+
+
+
+HomeController : back-end 개발자(팀장)
+Coach, Result : back-end개발자(대부분)
+
+bb.css : 웹디자이너
+input.html : 웹디자이너
+output.jsp : 웹디자이너
+
+bbCheck.js : front-end 개발자
+validCheck.js : front-end 개발자
+
+index.html : PM
+
+DB관련작업 :DBA 

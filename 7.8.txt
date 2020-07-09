@@ -1,0 +1,32 @@
+HTML
+-------------
+HTML
+CSS
+JavaScript
+------------
+Servlet
+------------작업불편
+JSP
+------------실제 프로젝트에서 분업 가능?
+JSP Model 2 <<<<<< 7.8
+	JSP프로젝트에 MVC패턴 적용
+
+사이트에 첫 접속하면 V1.html을 보여줘
+
+
+고객 
+PM : 고객이랑 씨름
+
+PL : back-end 웹개발자중 선임
+
+back-end 웹개발자1 : C.java
+
+back-end 웹개발자2 : M.java
+
+front-end 웹개발자1 : js
+front-end 웹개발자2 : js
+
+웹디자이너 1
+웹디자이너 2
+-------------
+Spring

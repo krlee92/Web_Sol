@@ -1,0 +1,74 @@
+졸업작품 스마트폰앱
+JAVA - x
+DB - x
+JSP - 데이터를 가져갈수 있게
+
+Android SDK
+------------------------------------
+HTML + CSS 화면 => 최대한 앱스럽게 디자인
+
+Node.js + MongoDB
+Spring + OracleDB => 전통
+
+DB - MongoDB
+서버 - Node.js
+---------------------
+
+iPhone 3
+
+실행 : 톰캣으로
+폰
+WiFi - SDCafe01
+IP주소/Jul03_1_WebApp
+
+WebApp Framework
+	jQueryMobile - 쉬움
+	SenchaTouch - 체계적, 제대로 웹앱
+
+Framework : 시키는대로 하면 자동으로 처리해주는
+
+
+jQuery mobile 갖다쓰기
+
+https://jquerymobile.com/download/
+
+https://api.jquerymobile.com/data-attribute/
+API Documentation
+Reference
+Data Attributes
+
+HTML
+---------------?
+HTML
+CSS
+---------------?
+Servlet
+작업이 불편(HTML소스를 자바로 구현하기가)
+자바베이스에 HTML CSS를 String으로 처리
+---------------- 
+JSP(Java Servlet Page)
+HTML CSS베이스 자바코드를 추가
+
+.html : 자바의 기능이 필요 x
+.jsp : 자바의 기능이 필요 o(출력)
+
+------------------------------------------------------------------
+JSP 파일 구성
+<%@ %> : page directive
+	톰캣이 서블릿으로 바꿀 때 필요한 정보
+	직접 칠 일이 거의 없음
+	import
+
+<%    %>
+doGet
+doPost 안쪽
+그 영역끼리 연결되어 있음
+
+<%!  %>
+doGet
+doPost바깥쪽
+멤버변수, 메소드
+
+<%=   %>
+출력용
+; 안씀
