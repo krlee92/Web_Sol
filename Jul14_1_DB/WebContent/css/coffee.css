@@ -1,0 +1,76 @@
+@charset "EUC-KR";
+
+#coffeeTbl {
+	width: 90%;
+	font-size: 20pt;
+}
+
+#coffeeRegGo {
+	color: #000000CC;
+	font-size: 25pt;
+	text-shadow: 3px 3px 3px #FFB74D;
+}
+
+#coffeeRegGo:hover {
+	text-shadow: 3px 3px 3px #C62828;
+}
+
+#coffeeRegTbl {
+	width: 70%;
+	height: 500px;
+}
+
+#coffeeRegTbl th {
+	font-size: 40pt;
+	text-shadow: 3px 3px 3px #FFB74D;
+}
+
+#coffeeRegTbl input {
+	font-family: "a";
+	border: none;
+	border-bottom: #000000CC solid 5px;
+	width: 70%;
+	font-size: 25pt;
+	height: 70px;
+}
+
+#coffeeRegTbl input::placeholder {
+	color: #FFB74D;
+}
+
+#coffeeRegTbl input:focus {
+	border-bottom: #C62828 solid 5px;
+}
+
+#coffeeRegTbl button {
+	font-family: "a";
+	border: none;
+	background-color: transparent;
+	font-size: 35pt;
+	color: #FFB74D;
+	text-shadow: 3px 3px 3px #000000CC;
+	cursor: pointer;
+}
+#coffeeBBS{
+	width: 80%;
+	background-color: #000000CC;
+	color:white;
+	border-spacing: 0px;
+	box-shadow: 3px 3px 3px black;
+}
+#coffeeBBS th{
+	height: 60px;
+	border-bottom:#FFB74D solid 3px; 
+}
+#coffeeBBS td{
+	padding: 10px;
+}
+#coffeeBBS .dataTr{
+	background-color: white;
+	color:#000000CC;
+	height:50px;
+	cursor:pointer;
+}
+#coffeeBBS .dataTr:hover{
+	background-color: #FFCDD2;
+}
