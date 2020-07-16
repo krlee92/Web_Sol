@@ -23,7 +23,7 @@
 						<th>가격</th>
 					</tr>
 					<c:forEach var="c" items="${coffees }">
-						<tr class="dataTr">
+						<tr class="dataTr" onclick="goCoffeeInfo('${c.name}');">
 							<td>${c.name }</td>
 							<td align="right"><fmt:formatNumber value="${c.price }" type="currency"/></td>
 						</tr>
@@ -32,7 +32,11 @@
 			</td>
 		</tr>
 		<tr>
-			<td align="center">1 2 3 4</td>
+			<td align="center">
+				<c:forEach var="p" begin="1" end="${pageCount }">
+					<a href="CoffeePageController?p=${p }" class="pageCount"> ${p }</a>
+				</c:forEach>
+			</td>
 		</tr>
 		<tr>
 			<td align="center">검색</td>

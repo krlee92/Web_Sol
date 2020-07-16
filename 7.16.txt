@@ -1,0 +1,26 @@
+요청(Controller) ->		 	DAO작업 -> 		포워딩(include되는 페이지 세팅해서 포워딩)
+
+요청
+<a>:GET방식요청
+<form>+<input>:GET/POST
+JS: GET방식요청
+    JS로 html을 만들수 있음
+	<form>+<input>을 만들어서 POST는 가능
+
+
+Spring : C,M
+	V는 그대로
+
+JSP Model 2 + EL + JSTL
+---------------------------정부에서 시켜서(유지보수하기 좋게)
+
+전자정부표준프레임워크(Java 백엔드개발 최종)
+	-정부에서 eclipse를 개조해놓은거
+	-eclipse + myBatis편하게 + maven편하게 + spring편하게
+
+DB : Java -> ConnectionPool ->MyBatis
+.jar : 인터넷에서 직접 	-> Maven
+Java 개발			-> Spring 
+==================================
+library - DBManager.java, validCheck.js, jquerymobile - 남이 작업해준 쓸만한 기능 모음
+framework : library + 개발환경(툴)

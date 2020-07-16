@@ -13,6 +13,7 @@
 <script type="text/javascript" src="js/validCheck.js"></script>
 <script type="text/javascript" src="js/jul15Check.js"></script>
 <script type="text/javascript" src="js/notice.js"></script>
+<script type="text/javascript" src="js/go.js"></script>
 </head>
 <c:choose>
 	<c:when test="${r != null }">

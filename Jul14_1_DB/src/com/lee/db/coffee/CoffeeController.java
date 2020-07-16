@@ -17,7 +17,7 @@ public class CoffeeController extends HttpServlet {
     // 커피페이지 처음 들어올때
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		CoffeeDAO.getCoffee(request);
+		CoffeeDAO.getCdao().getCoffee(1, request);
 		// 폴더명을 써서 구별이 되니까 파일명이 coffeeBBS.jsp일 필요 없다
 		request.setAttribute("contentPage", "coffee/bbs.jsp");
 		request.getRequestDispatcher("index.jsp").forward(request, response);

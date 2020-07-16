@@ -25,10 +25,11 @@ public class CoffeeRegController extends HttpServlet {
 	// 등록하기
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// 커피 등록 먼저하고
-		CoffeeDAO.coffeeReg(request);
+		CoffeeDAO.getCdao().coffeeReg(request);
 		
 		// 커피 목록을 가져와야
-		CoffeeDAO.getCoffee(request);
+		CoffeeDAO.getCdao().getCoffee(1, request);
+		
 		// 등록 하고 다시 등록 페이지로
 //		request.setAttribute("contentPage", "coffee/reg.jsp");
 //		request.getRequestDispatcher("index.jsp").forward(request, response);

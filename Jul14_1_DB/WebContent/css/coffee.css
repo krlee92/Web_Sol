@@ -51,26 +51,42 @@
 	text-shadow: 3px 3px 3px #000000CC;
 	cursor: pointer;
 }
-#coffeeBBS{
+
+#coffeeBBS {
+	margin: 10px;
 	width: 80%;
-	background-color: #000000CC;
-	color:white;
 	border-spacing: 0px;
 	box-shadow: 3px 3px 3px black;
+	background-image: url("../img/cf.jpg");
+	background-size: 400px; 
+	background-position: bottom right;
+	background-repeat: no-repeat;
 }
-#coffeeBBS th{
+
+#coffeeBBS th {
+	background-color: #000000CC;
+	color: white;
 	height: 60px;
-	border-bottom:#FFB74D solid 3px; 
+	border-bottom: #FFB74D solid 3px;
 }
-#coffeeBBS td{
+
+#coffeeBBS td {
 	padding: 10px;
 }
-#coffeeBBS .dataTr{
-	background-color: white;
-	color:#000000CC;
-	height:50px;
-	cursor:pointer;
+
+#coffeeBBS .dataTr {
+	background-color: #FFFFFFBB; /* ªÏ¬¶»Â∏¥«— »Úªˆ¿∏∑Œ πË∞Ê¿ÃπÃ¡ˆ ∫Òƒ°∞‘*/
+	color: #000000CC;
+	height: 50px;
+	cursor: pointer;
 }
-#coffeeBBS .dataTr:hover{
-	background-color: #FFCDD2;
+
+#coffeeBBS .dataTr:hover {
+	background-color: #FFE0B2BB;
+}
+
+.pageCount{
+	margin-right: 10px;
+	color: aqua;
+	
 }

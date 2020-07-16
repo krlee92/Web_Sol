@@ -7,6 +7,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.lee.db.coffee.CoffeeDAO;
+
 /**
  * Servlet implementation class HomeController
  */
@@ -14,12 +16,11 @@ import javax.servlet.http.HttpServletResponse;
 public class HomeController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
+	// ≈Ëƒπ¿Ã HC∏¶ √≥¿Ω ∏∏µÈ∂ß
     public HomeController() {
         super();
-        // TODO Auto-generated constructor stub
+        CoffeeDAO.getCdao().setAllCoffeeCount();
+        
     }
 
 	/**
